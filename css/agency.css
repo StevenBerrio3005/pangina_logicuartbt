@@ -1,0 +1,1392 @@
+/*!
+ * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+p {
+    line-height: 1.75;
+      color: #000000;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #1d294e;
+}
+
+.text-primary {
+    color: #1d294e !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 25px 0;
+    }
+}
+
+::-moz-selection {
+    background: #1d294e;
+    text-shadow: none;
+}
+
+::selection {
+    background: #1d294e;
+    text-shadow: none;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+.btn {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+
+.btn-primary {
+    background-color: #1d294e;
+    border-color: #1d294e;
+}
+
+
+
+
+.btn {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+}
+
+
+
+.btn-secondary {
+    background-color: #252237;
+    border-color: #252237;
+    margin-bottom: 5%;
+
+    margin-top: 3%;
+}
+
+
+
+
+
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #1d294e !important;
+    border-color: #1d294e !important;
+    color: white;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(55, 68, 254, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(92, 55, 254, 0.5) !important;
+}
+
+#mainNav {
+    background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #1d294e;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-brand {
+    color: #1d294e;
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+    color: #180e6d;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fdfdfc;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #949494;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+    }
+}
+
+
+
+#masthead {
+padding-bottom: 20px;
+}
+
+
+/*  */
+
+
+/*  */
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+#servicios .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#servicios .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#servicios .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(254, 209, 54, 0.9);
+}
+
+#servicios .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#servicios .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white;
+}
+
+#servicios .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#servicios .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#servicios .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#servicios .portfolio-item .portfolio-caption p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+#servicios * {
+    z-index: 2;
+}
+
+@media (min-width: 767px) {
+    #servicios .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.portfolio-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content button {
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #212529;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    /* Safari and Chrome */
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: #212529;
+}
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: '';
+    background-color: #e9ecef;
+}
+
+.timeline>li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+.timeline>li:after,
+.timeline>li:before {
+    display: table;
+    content: ' ';
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li .timeline-panel {
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #fed136;
+}
+
+.timeline>li .timeline-image h4 {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 12px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline>li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading {
+    text-transform: none;
+}
+
+.timeline .timeline-body>ul,
+.timeline .timeline-body>p {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%;
+    }
+    .timeline>li {
+        min-height: 100px;
+        margin-bottom: 100px;
+    }
+    .timeline>li .timeline-panel {
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: right;
+    }
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+    .timeline>li .timeline-image h4 {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 30px 20px 20px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .timeline>li {
+        min-height: 150px;
+    }
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px;
+    }
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+    .timeline>li .timeline-image h4 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 20px 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timeline>li {
+        min-height: 170px;
+    }
+    .timeline>li .timeline-panel {
+        padding: 0 20px 20px 100px;
+    }
+    .timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+    .timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
+    .timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+.servicios-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.servicios-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.servicios-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.servicios-member p {
+    margin-top: 0;
+}
+
+section#contact {
+    background-color: #212529;
+    background-image: url("../img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 248px;
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+section#contact ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+section#contact :-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+section#contact ::-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+section#contact :-ms-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: #1b028d;
+}
+
+
+/*  */
+
+section#contactenos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.textotituloscontactenos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    font-family: Montserrat;
+    line-height: 90px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    word-spacing: 0;
+    color: #1d294e
+}
+
+.textotrabajo {
+    text-align: right;
+    color: #000000;
+    font-family: Allan;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.conoscanost {
+    color: rgb(129, 129, 129);
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#imgconozcanos {
+    background: url("../img/CONOZCANOS/responsabilidad-civil-extracontractual-2-1024x676.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5000px;
+    margin-bottom: 100px;
+}
+
+.parallaxconozcanos {
+    padding: 300px 1000px;
+}
+
+
+/*---Conozcanos-- Div de videos--*/
+
+.wpb_wrapper {
+    margin-top: 25px;
+}
+
+.textovideo {
+    margin-top: 25px;
+}
+
+.titulodvideo {
+    color: rgb(3, 3, 3);
+    margin-top: 0%;
+}
+
+.recuadrodevideo1 {
+    background-image: url("../img/CONOZCANOS/hombre.jpg") !important;
+    background-position: center !important;
+    min-width: 260px;
+    min-height: 580px;
+    height: 0px;
+    width: auto;
+    position: relative;
+    background-size: 100% 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.recuadrodevideo2 {
+    background-image: url("../img/CONOZCANOS/manos\ en\ circulo.jpg") !important;
+    background-position: center !important;
+    min-width: 260px;
+    min-height: 580px;
+    height: 0px;
+    width: auto;
+    position: relative;
+    background-size: 100% 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cintagrissobrerecuadrovideo {
+    padding: 5px !important;
+    background-color: rgba(83, 82, 82, 0.66) !important;
+    *background-color: rgb(117, 117, 117) !important;
+}
+
+.contenedorcompletodevideos {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#videosconozcanos {}
+
+#imgservicios {
+    background: url("../img/SERVICIOS/maquinaria.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5000px;
+    margin-bottom: 100px;
+}
+
+.parallaxservicios {
+    padding: 300px 1000px;
+}
+
+#imgcontactenos {
+    background: url("../img/CONTACTENOS/contactenosp.jpg");
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2000px;
+    margin-bottom: 100px;
+}
+
+.parallaxcontactenos {
+    padding: 300px 1000px;
+}
+
+.contactenost {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contactenosf {
+    background-color: #ee2828;
+    background-image: url("../img/CONTACTENOS/transporte-de-mercancia-2-1024x676.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textocontac {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.formap1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.formap {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+/* Estilo acceder al sistema */
+
+section#accederalsistema {
+    background-image: url("../img/ACCEDER_AL_SISTEMA/SISTEMA-1024x414.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #020202;
+    padding-bottom: 630px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textocompletodeacceder {
+    top: 350px;
+}
+
+.accedertexto {
+    font-size: 200%;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.accedertexto1 {
+    font-size: 120%;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* parallax */
+
+#plx {
+    background: url("../img/HOGAR/2385888.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxuno {
+    padding: 450px 20px;
+}
+
+
+/* parallaxdos*/
+
+#plxdos {
+    background: url("../img/CONSTRUCCION/1598.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxdos {
+    padding: 500px 20px;
+}
+
+
+/* parallax tres */
+
+#plxtres {
+    background: url("../img/HEADER/2597273.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxtres {
+    padding: 450px 20px;
+}
+
+
+/* parallax cuatro */
+
+#plxcuatro {
+    background: url("../img/ELEMENTOS/SEPARADOR_CARRETERA.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxcuatro {
+    padding: 250px 20px;
+}
+
+
+#plxcinco {
+    background: url("../img/ENVIOS/373951-PBCHST-720.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxcinco {
+    padding: 250px 20px;
+}
+
+
+
+
+
+
+/* Inicio de Estilos del Footer  */
+
+.footerrisks {
+    text-align: center;
+    background-color: #122163;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: auto;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#logofooter {
+    margin-top: 5px;
+    margin-bottom: 70px;
+    width: auto;
+    height: 90px;
+}
+
+footer {
+    background-color: #1B0056;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footerfinaltext1 {
+    font-size: 90%;
+    line-height: 40px;
+    color: rgb(196, 194, 196);
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    margin-top: 25px;
+}
+
+.footerfinaltext2 {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.conozcanos1 {
+    background-image: url("../img/CONOZCANOS/responsabilidad-civil-extracontractual-2-1024x676.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.titulosdetodaslaspaginas {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    font-family: Montserrat;
+    line-height: 55px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 0;
+    color: #1d294e;
+    margin-bottom: 0;
+    "
+
+}
+
+.titulosdetodaslaspaginasdos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: Montserrat;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    word-spacing: 0;
+    color: #1d294e;
+    margin-bottom: 0;
+}
+
+.conozcanos1 {
+    background-image: url("../img/CONOZCANOS/responsabilidad-civil-extracontractual-2-1024x676.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.entrevistas {
+    margin-top: 0;
+    margin-bottom: 1px;
+    background-color: #ffffff;
+    width: auto;
+    height: 525px;
+}
+
+.entrevistaj {
+    background-color: #ffffff;
+    background-image: url("../img/CONOZCANOS/hombre.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+.entrevistajtext {
+    margin-top: 30%;
+    margin-bottom: -200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.entrevistafa {
+    background-color: #858282;
+    background-image: url("../img/CONOZCANOS/manos\ en\ circulo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+.entrevistafatext {
+    margin-top: 30%;
+    margin-bottom: -200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.entrevistas {
+    margin-top: 0;
+    margin-bottom: 1px;
+    background-color: #ffffff;
+    width: auto;
+    height: 525px;
+}
+
+.entrevistaj {
+    background-color: #ffffff;
+    background-image: url("../img/CONOZCANOS/hombre.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+.entrevistajtext {
+    margin-top: 30%;
+    margin-bottom: -200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.entrevistafa {
+    background-color: #858282;
+    background-image: url("../img/CONOZCANOS/manos\ en\ circulo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+.entrevistafatext {
+    margin-top: 30%;
+    margin-bottom: -200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Inicio estilos beneficios */
+
+.beneficiosf {
+    background-color: #ffffff;
+    background-image: url("../img/BENEFICIOS/maquinaria.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textotitulosbeneficios {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: Montserrat;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    word-spacing: 0;
+    color: #1d294e
+}
+
+.textodescripcionbeneficios {
+    style="color: #565656;
+
+}
+
+
+/*Final  de Estilos del Footer  */
+
+section#contactenos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.textotituloscontactenos {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    font-family: Montserrat;
+    line-height: 90px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    word-spacing: 0;
+    color: #1d294e
+}
+
+.conoscanost {
+    color: rgb(129, 129, 129);
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contactenost {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contactenosf {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    min-width: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textocontac {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.formap1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.formap {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+/* PARALLAX */
+
+
+/* prueba acceder al sistema primera imagen */
+
+#lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    pointer-events: none;
+}
+
+#experience {
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -o-perspective: 800px;
+    -ms-perspective: 800px;
+    perspective: 800px;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -webkit-backface-visibility: hidden;
+    opacity: 1;
+}
+
+
+/* INICIO  SERVICIOS STIVEN */
+
+.info p {
+  text-align:center;
+  color: #999;
+  text-transform:none;
+  font-weight:600;
+  font-size:15px;
+  margin-top:2px
+}
+
+h1 {
+  text-align: center;
+  color: #666;
+  text-shadow: 1px 1px 0px #FFF;
+  margin:50px 0px 0px 0px
+}
+
+h2 {
+  color: #666;
+  font-size: 23px;
+ 
+  margin:7% auto auto auto;
+}
+h3 {
+  color:#fff;
+  font-size: 18px;
+}
+hr {
+  z-index:-1;
+  border-bottom:0;
+  border:1px solid #666;
+  border-radius:10px;
+  position:relative;
+  bottom:25px;
+}
+
+
+
+/* parallax tres */
+
+#plxtres {
+    background: url("../img/ENVIOS/creditos-hipotecarios.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxtres {
+    padding: 550px 5px;
+}
+
+
+.elementobanner {
+    background: url("../img/ELEMENTOS/BANNER.jpg");
+    background-color: #180e6d;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+}
+
+.fondoverde{
+
+  background: url("../img/ELEMENTOS/FONDO\ VERDE.png");
+
+}
+
+
+.card{
+
+  color: rgb(0, 0, 0);
+  background-color: #C6D321;
+  border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+.card-text{
+
+  color: rgb(0, 0, 0);
+  background-color: #C6D321;
+
+}
+
+.card-img-top2{
+
+
+
+}
+
+.center-block{
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+
+
+
+
+
+/* .card-body{
+
+box-sizing:border-box;
+display:block;
+float:none;
+line-height:24px;
+position: relative;
+z-index:auto;
+margin-left: 35%;
+
+} */
+
+
+
+
+
+
+
+
